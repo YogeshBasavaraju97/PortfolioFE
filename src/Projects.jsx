@@ -1,5 +1,5 @@
 import React from 'react';
-import projImage from "./assets/Pro1.png";
+import Pro1 from "./assets/pro1.png";
 import tech from "./assets/tech.jpeg";
 import reg from "./assets/reg.jpg";
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ const Projects = () => {
     <div className='flex justify-center gap-4 mt-10'>
       <div className='flex flex-col border border-black items-center  w-80 h-auto p-3 rounded-2xl '>
         <div className='flex justify-center items-center  w-64 mt-5 h-auto'>
-          <img src={projImage} className='flex justify-center   rounded-full' />
+          <img src={Pro1} className='flex justify-center   rounded-full' />
         </div>
         <h1 className='flex justify-center text-3xl my-4 '>Dev Tinder</h1>
         <div className='flex justify-center gap-6 my-3'>
