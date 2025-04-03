@@ -14,8 +14,8 @@ const Projects = () => {
         </div>
         <h1 className='flex justify-center text-3xl my-4 '>Dev Tinder</h1>
         <div className='flex justify-center gap-6 my-3'>
-          <button className='p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 ' >Live Demo</button>
-          <button className='p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Github </button>
+          <Link to="http://51.21.201.226/" target='_blank' className='flex justify-center p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Live Demo</Link>
+          <Link to="https://github.com/YogeshBasavaraju97/DevTinder" target="_blank" className=' flex justify-center p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Github </Link>
         </div>
       </div>
 
