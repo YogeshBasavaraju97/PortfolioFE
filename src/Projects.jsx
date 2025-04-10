@@ -34,10 +34,10 @@ const Projects = () => {
         <div className='flex justify-center items-center  w-64 mt-5 mb-4 h-auto'>
           <img src={reg} className='flex justify-center w-64 h-64  rounded-3xl object-center' />
         </div>
-        <h1 className='flex justify-center text-3xl my-4 '>Registration app</h1>
+        <h1 className='flex justify-center text-3xl my-4 '>CRM Application</h1>
         <div className='flex justify-center gap-4 my-3'>
-          <Link to="http://16.171.169.35/" target='_blank' className='flex justify-center p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Live Demo</Link>
-          <Link to="https://github.com/YogeshBasavaraju97/FinacBE" target="_blank" className=' flex justify-center p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Github </Link>
+          <Link to="http://16.171.10.246/" target='_blank' className='flex justify-center p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Live Demo</Link>
+          <Link to="https://github.com/YogeshBasavaraju97/CRM_Application_BE" target="_blank" className=' flex justify-center p-3 w-32 bg-white text-black rounded-full border border-gray-950 hover:bg-black hover:text-white hover:opacity-50 transition-opacity duration-700 '>Github </Link>
         </div>
       </div>
 
